@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Hobo;
+    src: url(../fonts/Hobo\ Std\ Medium.ttf);
+}
+
+@font-face {
+    font-family:arend;
+    src: url(../fonts/unicode.arialr.ttf);
+}
+
+/* VASTE BODY ELEMENTEN */
+    body {
+        background: url(../Images/BACKDOORBITCH/sugarbabygimma-07.png) no-repeat center fixed;
+        background-size: cover; 
+    }
+
+    header { padding: 0;
+                margin: 3px;
+                margin-top: 20px;
+                margin-bottom: 10px;      
+    }
+
+    h1 { font-family: Hobo;
+            font-size: 125px;
+            font-style: italic ;
+            color: rgb(0, 0, 0);
+            text-align: left;
+            letter-spacing: 12px;
+
+            margin: 0;
+            padding: 0;
+            margin-left: 20px;
+    }
+
+    p { text-align: right;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        margin-top: -50px;
+        margin-right: 25px;
+        font-family: arend;
+    }
+
+    .sugarbabe {
+        position: absolute; bottom: 0; right: 0px;
+        margin-bottom: -60px;
+        margin-left: 0px;
+    
+        width: 40em;
+        height: 48em; 
+    }
+
+/* START ATRIBUTEN VAN INTRO */
+    .startknopa { display: flex;
+                justify-content: left;
+            width: 40em;
+            margin-top: 325px;
+            margin-left: -10px;
+            cursor: pointer;   
+    }
+
+    .starttekst { 
+        position: absolute;
+        justify-content: left;
+        margin-top: -320px;
+        margin-left: 50px;
+        font-size: 23px;
+    }
+    #vulIn {
+        position: absolute; bottom: 0; right: 400px;
+        margin-right: 200px;
+        margin-bottom: 280px;
+        font-size: 40px;
+        display: block;
+    }
+
+    #BitchSays {
+        display: block;
+    }
+    .startbitch {
+        display: block;
+    }
+   
+
+ /* WIJZIGT ZICH */
+    h2 { font-family: 'Franklin Gothic Medium';
+        font-size: 35px;    
+        font-style: italic;
+        color: rgb(255, 39, 241);
+        position: absolute; right: 625px; top: 150px;
+        margin-top: 175px;
+        padding: 1;
+    }
+
+    #GiftP {
+        position: absolute; right: 30px; top: 40px;
+        width: 5em;
+        height: 6em; 
+    }
+
+    #Stonecounter {
+        position: absolute; right: 130px; top: 170px;
+        font-size: 50px;
+        font-family: arend;
+    }
+
+    #StoneP {
+        position: absolute; right: 30px; top: 130px;
+        width: 5em;
+        height: 6em;
+        margin-top: 10px;  
+    }
+
+    #GiftCounter {
+        position: absolute; right: 130px; top: 80px;
+        font-size: 50px;
+        font-family: arend;
+    }
+
+    .counter {
+        display: none;
+    }
+
+    #audio {
+        display: none;
+    }
+
+/* hier staan alle cadeau's */
+
+    .input { display: flex;
+        justify-content: right;
+        list-style-type: none;
+        flex-direction: column-reverse;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: -20px;
+    }
+
+    .input2 {
+        display: none;
+    }
+
+    ul img { 
+            border-radius: 0em;
+            width: 12em;
+            height: 8em;
+            margin-left: -15px;
+            margin-right: -15px;
+            margin-top: -0px;
+            margin-bottom: 10px;
+            cursor: pointer;   
+    }
+
+    .Fcandy { 
+        border-radius: 0em;
+        width: 10em;
+        height: 8em;
+        margin: -10px;
+        margin-top: 10px;
+    }
+
+    #greycar { 
+        border-radius: 0em;
+        width: 12em;
+        height: 8em;
+        margin: -10px;
+        margin-top: 0px;
+    }
+
+    #plaintix { 
+        border-radius: 0em;
+        width: 9em;
+        height: 7em;
+        margin: -10px;
+        margin-left: 18px;
+    }
+    
+    #greenneck { 
+        margin-top: 10px;
+    }
+    #pearldangly {
+        width: 4em;
+        height: 5em;
+        margin: 60px;
+    
+    }
+
+    #lose {
+        display: none;
+        margin-left: 70px;
+        margin-right: auto;
+        width: 50%;
+        cursor: pointer;
+    }
+
+    #win {
+        display: none;
+        margin-left: 60px;
+        margin-right: auto;
+        width: 46%;
+        cursor: pointer;
+    }
